@@ -4,25 +4,25 @@ require "json"
 class Zpq < Formula
   desc "Fast Unix-native Parquet inspection, filtering and projection"
   homepage "https://github.com/chicagobuss/zpq"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.0/zpq-aarch64-macos.tar.gz"
-      sha256 "bf5facfac8d38a54ed57bbc9484d19cf2d4c78172b8eff3a70feb1056b585b04"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.1/zpq-aarch64-macos.tar.gz"
+      sha256 "363759253e9f61f8ff7989fd426716522d44d3b280343bd2ceee3234dbac0f67"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.0/zpq-aarch64-linux-musl.tar.gz"
-      sha256 "ba9ad062b8ac37b860b34b9f6a560d74c5915b86d37a0e4cc58f855688948578"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.1/zpq-aarch64-linux-musl.tar.gz"
+      sha256 "7b4ec804633ae724930218ffb9f82609f2c981acf669363b530c118eae320db1"
     end
     on_intel do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.0/zpq-x86_64-linux-musl.tar.gz"
-      sha256 "5fdfa9aad6ef5dfae9aa6b8f68305ad218a79638121f56ebfd1afeef493bf126"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.5.1/zpq-x86_64-linux-musl.tar.gz"
+      sha256 "5d482f830737fde47e0446ab33c67dd3fa45076aa792fb9331ac87803efa2c79"
     end
   end
 
