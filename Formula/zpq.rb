@@ -4,7 +4,6 @@ require "json"
 class Zpq < Formula
   desc "Fast Unix-native Parquet inspection, filtering and projection"
   homepage "https://github.com/chicagobuss/zpq"
-  version "0.5.1"
   license "MIT"
 
   on_macos do
