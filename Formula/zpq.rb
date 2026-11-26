@@ -9,19 +9,19 @@ class Zpq < Formula
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.0/zpq-aarch64-macos.tar.gz"
-      sha256 "9417deaa4f17c53547ca7b9f52448dab08f2915f3f105634b633819476edcd3c"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.1/zpq-aarch64-macos.tar.gz"
+      sha256 "902ea5a411f8185cfd9d74099f3e9e9e5f01e9afa2eb2c12c0df4f7198c08f8d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.0/zpq-aarch64-linux-musl.tar.gz"
-      sha256 "3b497f738641d5f67b3d8dbd1de3ca9fefc762567b1ae6f19abcf23678ed5a8b"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.1/zpq-aarch64-linux-musl.tar.gz"
+      sha256 "87fdbd917fd1a17ac66da9be3c7a646583124797e90561b215627648a439c4f4"
     end
     on_intel do
-      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.0/zpq-x86_64-linux-musl.tar.gz"
-      sha256 "80817f39ee4f8ef63eaf6c9970b80f73dc1abdbc9ce2caf6ed08b71db51d3210"
+      url "https://github.com/chicagobuss/zpq/releases/download/v0.6.1/zpq-x86_64-linux-musl.tar.gz"
+      sha256 "094876934478990a54347d9dc7aac34256c75089ec3bafa517a2c3bb1658b2e2"
     end
   end
 
